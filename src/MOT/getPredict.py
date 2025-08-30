@@ -3,8 +3,8 @@ from ultralytics import YOLO
 import numpy as np
 
 # 載入模型
-model = YOLO('/Users/jameschen/Desktop/BeeProject/BeeProject3class_exp2/best.pt')  # 模型路徑
-video_path = '/Users/jameschen/Desktop/BeeProject/MOTtest/beeVideoMOTtest.mp4'  # 影片路徑
+model = YOLO('/best.pt')  # 模型路徑
+video_path = '/beeVideoMOTtest.mp4'  # 影片路徑
 
 # 打開影片
 cap = cv2.VideoCapture(video_path)
