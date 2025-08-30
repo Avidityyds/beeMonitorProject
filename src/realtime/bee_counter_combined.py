@@ -98,7 +98,7 @@ def save_counts_to_csv(csv_path, counter, tag):
 
 def main():
     tz = pytz.timezone('Asia/Taipei')  
-    model_path = '/workspace/BeeCount/best.pt'
+    model_path = '/best.pt'
     model = YOLO(model_path)
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
