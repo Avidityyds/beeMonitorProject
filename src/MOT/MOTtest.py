@@ -2,11 +2,11 @@ import motmetrics as mm
 import pandas as pd
 
 # 載入 ground truth
-gt = pd.read_csv('/Users/jameschen/Desktop/BeeProject/MOTtest/groundTrue.txt', header=None)
+gt = pd.read_csv('/groundTrue.txt', header=None)
 gt.columns = ['FrameId', 'ObjectId', 'X', 'Y', 'Width', 'Height', 'Conf', 'ClassId', 'Vis']
 
 # 載入預測結果 pred
-pred = pd.read_csv('/Users/jameschen/Desktop/BeeProject/MOTtest/pred.txt', header=None)
+pred = pd.read_csv('/pred.txt', header=None)
 pred.columns = ['FrameId', 'ObjectId', 'X', 'Y', 'Width', 'Height', 'Conf', 'ClassId', 'Vis']
 
 # 初始化 accumulator
