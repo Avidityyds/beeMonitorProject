@@ -100,8 +100,8 @@ class ObjectCounter:
 
 
 def main():
-    MODEL_PATH = '/home/ubuntu/PinHsun/outputs/bee_exp1/weights/best.pt'
-    VIDEO_PATH = '/home/ubuntu/PinHsun/BeeProject/beeVideo.mp4'
+    MODEL_PATH = '/best.pt'
+    VIDEO_PATH = '/beeVideo.mp4'
 
     model = YOLO(MODEL_PATH)
     cap = cv2.VideoCapture(VIDEO_PATH)
