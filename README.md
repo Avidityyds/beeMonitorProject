@@ -24,7 +24,7 @@
 
 軟體需求：
 - Python 3.9+
-- Ultralytics YOLO (/YOLOv12)
+- Ultralytics YOLO (YOLOv12n)
 - OpenCV
 - ByteTrack
 - motmetrics
